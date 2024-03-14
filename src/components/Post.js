@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom'
 const Post = ({ posts, handledelete }) => {
   let { id } = useParams()
   console.log(posts)
-  let result = posts.find((post) => (post.id == id))
+  let result = posts.find((post) => (post.id === id))
   console.log(result)
   return (
     <div className='post-page'>
