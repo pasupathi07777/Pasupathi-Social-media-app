@@ -11,6 +11,10 @@ const Post = ({ posts, handledelete }) => {
   return (
     <div className='post-page'>
       {result && <article className='article'  >
+      {result.img &&  <div className="img-box" >
+                        <img src={result.img} alt="" />
+
+                    </div>}
         <h2>{result.title}</h2>
         <p>{result.datetime}</p>
         <p>{result.body}</p>
