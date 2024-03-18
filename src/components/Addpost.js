@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
 const Addpost = ({ handlesumit, title, setTitle, content, setcontent, img, setimg }) => {
   function imgs(e) {
